@@ -11,6 +11,6 @@
 #import <CoreData/CoreData.h>
 #import <iOS-Color-Picker/FCColorPickerViewController.h>
 
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate, ColorPickerViewControllerDelegate>
+@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate, ColorPickerViewControllerDelegate, MFMailComposeViewControllerDelegate>
 
 @end
