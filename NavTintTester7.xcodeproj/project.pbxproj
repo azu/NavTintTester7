@@ -243,8 +243,6 @@
 			mainGroup = 7343BC6717FC146D0001C6D9;
 			productRefGroup = 7343BC7117FC146D0001C6D9 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				7343BC6F17FC146D0001C6D9 /* NavTintTester7 */,
@@ -442,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F64F5B2F080D4B7085225FD4 /* Pods-NavTintTester7.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -449,6 +448,7 @@
 				INFOPLIST_FILE = "NavTintTester7/NavTintTester7-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -457,13 +457,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F64F5B2F080D4B7085225FD4 /* Pods-NavTintTester7.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavTintTester7/NavTintTester7-Prefix.pch";
 				INFOPLIST_FILE = "NavTintTester7/NavTintTester7-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -529,6 +532,7 @@
 				7343BCAD17FC146D0001C6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7343BCAE17FC146D0001C6D9 /* Build configuration list for PBXNativeTarget "NavTintTester7Tests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +541,7 @@
 				7343BCB017FC146D0001C6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
