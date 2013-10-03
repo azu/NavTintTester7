@@ -41,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		09AA9311181D4D328FD46C3F /* libPods-NavTintTester7.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NavTintTester7.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C26967837B93E8CE0F70 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5CECFAB8BBD6DA3A9C5CE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		7343BC7017FC146D0001C6D9 /* NavTintTester7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTintTester7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7343BC7317FC146D0001C6D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +105,7 @@
 				7343BC7217FC146D0001C6D9 /* Frameworks */,
 				7343BC7117FC146D0001C6D9 /* Products */,
 				F64F5B2F080D4B7085225FD4 /* Pods-NavTintTester7.xcconfig */,
+				17B5C26967837B93E8CE0F70 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
