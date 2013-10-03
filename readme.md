@@ -4,6 +4,11 @@ iOS7 NavigationBar Tint Color Tester
 
 ## Usage
 
+you should build xcode project.
+
+
+![ss](https://www.monosnap.com/image/BGEdRmcU4x89Ncrrv7DcCQdB1.png)
+![ss](https://www.monosnap.com/image/H27c4LAnZYXhApy3twPbF2IW5.png)
 
 ## Contributing
 
